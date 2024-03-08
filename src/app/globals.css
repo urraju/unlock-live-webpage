@@ -36,10 +36,3 @@
   background-color: transparent !important; /* Use !important to ensure the style takes precedence */
 }
  
-
-.swiper-pagination-bullet{
-  width: 30px;
-  height: 3px;
-  border-radius: 0;
-  background: #ea6f03;
-}

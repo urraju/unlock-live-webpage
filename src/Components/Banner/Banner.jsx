@@ -1,11 +1,12 @@
 "use client";
+// import swiper js 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./banner.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-
+// import iamges 
 import Image from "next/image";
 import coffe1 from "../../../assets/images/menu_img/Image (5).png";
 import coffe2 from "../../../assets/images/menu_img/Image (6).png";
@@ -25,8 +26,8 @@ const abril = localFont({
 });
 export default function Banner() {
   return (
-    <div className=" h-full md:h-[600px]">
-      <div className="max-w-screen-xl mx-auto h-96 mt-10 relative">
+    <div className=" h-full bg-red-300 md:h-[550px]">
+      <div className="max-w-screen-xl mx-auto  mt-10  ">
         <Swiper
           autoplay={{
             delay: 3000,
@@ -233,7 +234,7 @@ export default function Banner() {
               </div>
             </div>
           </SwiperSlide>
-          
+
           <SwiperSlide className="">
             <div className="flex justify-between flex-col-reverse md:flex-row items-center  md:gap-20">
               <div className="flex-1">
@@ -269,14 +270,17 @@ export default function Banner() {
                     <div className="flex relative items-center">
                       <Image
                         src={coffe1}
+                        alt=""
                         className="border-2 rounded-full w-14"
                       />
                       <Image
                         src={coffe2}
+                        alt=""
                         className="absolute left-12 border-2 rounded-full w-14 z-20"
                       />
                       <Image
                         src={coffe3}
+                        alt=""
                         className="absolute left-24 border-2 rounded-full w-14 z-30"
                       />
                     </div>
@@ -299,8 +303,6 @@ export default function Banner() {
               </div>
             </div>
           </SwiperSlide>
-
-          
         </Swiper>
       </div>
     </div>
