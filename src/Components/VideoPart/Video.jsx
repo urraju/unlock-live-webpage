@@ -41,17 +41,16 @@ export default function Video() {
           <div className={abril.className}>
             <h1 className="text-xl py-2">Our Live Location</h1>
             <div className={sanPro.className}>
-              <p className="text-sm py-1">848 A 28TH ST, <br /> Brooklyn New York, UK</p>
-              
+              <p className="text-sm py-1">
+                848 A 28TH ST, <br /> Brooklyn New York, UK
+              </p>
             </div>
           </div>
         </div>
 
+        {/* card 4  */}
 
-         {/* card 4  */}
-
-        
-         <div className=" mb-8 md:text-right text-center">
+        <div className=" mb-8 md:text-right text-center">
           <div className={abril.className}>
             <h1 className="text-xl py-2">Book A Table Now</h1>
             <div className={sanPro.className}>
@@ -60,8 +59,6 @@ export default function Video() {
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   );

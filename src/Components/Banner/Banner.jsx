@@ -1,12 +1,12 @@
 "use client";
-// import swiper js 
+// import swiper js
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./banner.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-// import iamges 
+// import iamges
 import Image from "next/image";
 import coffe1 from "../../../assets/images/menu_img/Image (5).png";
 import coffe2 from "../../../assets/images/menu_img/Image (6).png";
@@ -26,7 +26,7 @@ const abril = localFont({
 });
 export default function Banner() {
   return (
-    <div className=" h-full bg-red-300 md:h-[550px]">
+    <div className=" h-full bg-red-300 md:h-[600px]">
       <div className="max-w-screen-xl mx-auto  mt-10  ">
         <Swiper
           autoplay={{
