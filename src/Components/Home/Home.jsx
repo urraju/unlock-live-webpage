@@ -6,6 +6,7 @@ import Banner from '../Banner/Banner'
 import Video from '../VideoPart/Video'
 import WhyChose from '../WhyChose/WhyChose'
 import CoffeeMenu from '../CoffeeMenu/CoffeeMenu'
+import RecipeMenu from '../RecipeMenu/RecipeMenu'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Video/>
       <WhyChose/>
       <CoffeeMenu/>
+      <RecipeMenu/>
     </div>
   )
 }
