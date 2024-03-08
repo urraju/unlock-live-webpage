@@ -6,7 +6,7 @@ const bakinlda = localFont({
 const sanPro = localFont({
   src: "../../font/Value Sans Pro/ValueSansPro-Regular.ttf",
 });
- 
+
 import Image from "next/image";
 import whyUsImage from "../../../assets/images/all_image/Layer 1 5.png";
 
@@ -57,19 +57,20 @@ export default function WhyChose() {
               {/* card 3  */}
               <div className="text-center border rounded-xl p-5">
                 <h1 className="text-5xl">20+</h1>
-                <h1 className="text-[#270a05b9] py-2 text-lg">
-                Achievements
-                </h1>
+                <h1 className="text-[#270a05b9] py-2 text-lg">Achievements</h1>
               </div>
             </div>
           </div>
 
           <div className={sanPro.className}>
+            <p className="text-[#270A05] leading-relaxed py-4 font-light text-[16px]">
+              Your choice to savor our coffee is an invitation to experience the
+              epitome of craftsmanship, <br /> flavor, and dedication.
+            </p>
 
-            <p className="text-[#270A05] leading-relaxed py-4 font-light text-[16px]">Your choice to savor our coffee is an invitation to experience the epitome of craftsmanship, <br /> flavor, and dedication.</p>
-
-            <button className="text-[#86371C] font-semibold mt-5 border-2 border-[#86371C] rounded-lg px-5 hover:bg-[#86371C] hover:text-white hover:font-medium duration-200 py-3">Explore Our Menus</button>
-
+            <button className="text-[#86371C] font-semibold mt-5 border-2 border-[#86371C] rounded-lg px-5 hover:bg-[#86371C] hover:text-white hover:font-medium duration-200 py-3">
+              Explore Our Menus
+            </button>
           </div>
         </div>
 
